@@ -1,0 +1,34 @@
+Kurtosis in EDA (Exploratory Data Analysis)
+Kurtosis is a statistical measure that describes the tailedness of a distribution compared to a normal distribution. It helps in understanding whether a dataset has extreme values (outliers) and how they are distributed.
+
+Types of Kurtosis
+Mesokurtic (Normal Kurtosis)
+
+The distribution is similar to a normal distribution.
+Kurtosis ≈ 3 (in some statistical libraries, excess kurtosis = 0).
+Example: Heights of people.
+Indicates a balanced distribution.
+
+
+Leptokurtic (High Kurtosis)
+
+The distribution has heavy tails (more extreme values/outliers).
+Kurtosis > 3 (excess kurtosis > 0).
+Example: Stock market returns (few extreme gains/losses).
+Indicates data has more extreme outliers.
+
+
+Platykurtic (Low Kurtosis)
+
+The distribution has light tails (fewer extreme values).
+Kurtosis < 3 (excess kurtosis < 0).
+Example: Uniform distribution.
+Indicates a lack of extreme values.
+
+
+Why Is Kurtosis Important in EDA?
+Helps detect outliers (high kurtosis = more outliers).
+Influences the selection of statistical tests (e.g., parametric vs. non-parametric).
+Affects machine learning models, especially those sensitive to extreme values (like linear regression).
+How to Calculate Kurtosis in Python?
+You can use Scipy or Pandas

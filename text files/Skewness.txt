@@ -1,0 +1,32 @@
+Skewness in EDA (Exploratory Data Analysis)
+Skewness is a statistical measure that describes the asymmetry of a dataset’s distribution. In EDA (Exploratory Data Analysis), skewness helps to understand whether a dataset is normally distributed or distorted due to extreme values (outliers).
+
+Types of Skewness
+Positive Skewness (Right-Skewed)
+
+The right tail is longer.
+The mean is greater than the median.
+Example: Income distribution (a few people have very high salaries).
+Skewness > 0
+
+
+Negative Skewness (Left-Skewed)
+
+The left tail is longer.
+The mean is less than the median.
+Example: Age at retirement (most people retire at 60-65, few earlier).
+Skewness < 0
+
+
+Zero Skewness (Symmetric Distribution)
+
+Data is normally distributed (bell-shaped curve).
+Mean ≈ Median ≈ Mode.
+Example: Heights of people.
+Skewness ≈ 0
+
+
+Why Is Skewness Important in EDA?
+Helps decide whether to transform data (e.g., log transformation for highly skewed data).
+Influences choice of statistical tests (e.g., parametric vs. non-parametric tests).
+Affects the performance of machine learning models, especially those sensitive to normality (like linear regression).
